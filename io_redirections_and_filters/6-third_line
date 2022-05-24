@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -A 3 iacta .
+grep -n -A=3 iacta .
