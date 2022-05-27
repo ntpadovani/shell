@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '^[[:alpha:]]' pruebatr | tr -d 'Cc'
+grep '^[[:alpha:]]' | tr -d 'Cc'
