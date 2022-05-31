@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 #This code will display Best School 10 times
-for bstschl in {1..10}; do echo $bstschl "Best School"; done;
+for bstschl in {1..10};
+do echo $bstschl "Best School" | tr -d "[:digit:]";
+done;
