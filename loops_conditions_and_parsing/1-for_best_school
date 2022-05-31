@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #This code will display Best School 10 times
-for bstschl {1..10}; do echo "Best School";done
+for bstschl in {1..10}; do echo "Best School";done
