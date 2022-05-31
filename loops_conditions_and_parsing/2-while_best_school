@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+bstschl=1
+	while [ $bstschl -le 10 ]
+		do
+			echo "Best School"
+			bstschl=$((bstschl+1))
+done
