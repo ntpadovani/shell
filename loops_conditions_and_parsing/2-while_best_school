@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#loop with while to display value on variable for 10 times
 bstschl=1
 	while [ $bstschl -le 10 ]
 		do
