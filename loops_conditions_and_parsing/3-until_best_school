@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script does an until loop
+untivar=0
+until [ $untivar -ge 10 ]
+	do
+		echo "Best School"
+		((untivar++))
+done
