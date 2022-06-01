@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#This will execute a certain text ouput in specific lines
+
+glblbs=1
+#This is the local variable for this srcript
+	while [ $glblbs -le 10 ]
+		do
+			#echo "Best School"
+	if [ $glblbs -eq 4 ]
+		then
+			echo "bad luck"
+	elif [ $glblbs -eq 8 ]
+		then
+			echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((glblbs++))
+done	
