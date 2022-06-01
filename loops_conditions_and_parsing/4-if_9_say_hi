@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#This script uses while loop and if
+sayhi=1
+	while [ $sayhi -lt 10 ]
+		do
+		    echo "Best School"	
+	((sayhi++))
+	if [ $sayhi = 9 ]
+		then
+		echo "Hi"
+	fi
+done
