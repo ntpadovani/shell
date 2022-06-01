@@ -4,9 +4,11 @@ sayhi=1
 	while [ $sayhi -le 10 ]
 		do
 		    echo "Best School"	
-	((sayhi++))
-	if [ $sayhi = 9 ]
-		then
-		echo "Hi"
-	fi
-done
+		if [ $sayhi -eq 9 ]
+			then
+				echo "Hi"
+		fi
+
+		((sayhi++))
+		#echo $sayhi
+	done
