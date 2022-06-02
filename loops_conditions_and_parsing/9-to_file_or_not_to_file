@@ -4,7 +4,10 @@
 if [[ -f School ]]
 	then
 		echo "school file exists"
-	elif [[ -s School ]]
+	else
+		echo "school file does not exist"
+fi
+	if [[ -s School ]]
 		then
 			echo "school file is not empty"
 		else
