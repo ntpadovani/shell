@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#This will display FizzBuzz, Fizz, Buzz when certain circumstances arise
+fizzy=1
+	while [ $fizzy -le 100 ]
+		do
+			if [ $(( fizzy%3 )) == 0 ] && [ $(( fizzy%5 )) == 0 ] 
+				then
+					echo "FizzBuzz"			
+			elif [ $(( fizzy%3 )) ==  0 ]
+				then
+					echo "Fizz" 
+			elif [ $(( fizzy%5 )) == 0 ]
+				then
+					echo "Buzz" 
+			else
+		
+				echo $fizzy
+	
+			fi	
+
+	((fizzy++))
+		done
