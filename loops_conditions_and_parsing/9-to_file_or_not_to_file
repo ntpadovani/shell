@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#This will give you information about the school file
+
+if [[ -f School ]]
+	then
+		echo "school file exists"
+	elif [[ -s School ]]
+		then
+			echo "school file is not empty"
+		else
+			echo "school file is empty"
+	fi
+	if [[ -f School ]]
+		then
+			echo "school is a regular file"
+		
+	fi
+
+ 
