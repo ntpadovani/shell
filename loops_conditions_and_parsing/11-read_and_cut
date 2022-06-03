@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#This will display the user, user id and home dir from the etc/passwd file
+file="$( cat /etc/passwd )"
+for pwdcont in $file
+		do  
+			echo  "$pwdcont" | cut -d':' -f1,3,6
+			#echo  "$pwdcont" | cut -s -d':' -f3
+			#echo  "$pwdcont" | cut -s -d':' -f6
+		done
+~                                                                                                            
+~                                                                                                               
+~                                                                                                               
+~                         
